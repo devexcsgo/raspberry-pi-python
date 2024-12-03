@@ -3,7 +3,7 @@ import pyodbc
 from collections import defaultdict
 
 # Konfiguration af serveren
-UDP_IP = "192.168.1.53"  # Erstat med din server IP
+UDP_IP = "192.168.1.53"  # Server IP
 UDP_PORT = 5005
 BUFFER_SIZE = 4100  # CHUNK_SIZE (4096) + 4 bytes til pakkeindeks
 
